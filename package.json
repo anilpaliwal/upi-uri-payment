@@ -1,0 +1,9 @@
+{
+  "name": "upi-uri-payment",
+  "version": "1.0.0",
+  "description": "Make payment by upi url",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}
