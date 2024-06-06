@@ -28,6 +28,33 @@ For React Native versions 0.60 and above, the package is automatically linked. F
 react-native link upi-uri-payment
 ```
 
+**Additional Setup for iOS**
+
+**URL Schemes for UPI Apps**
+
+To integrate specific UPI apps in your app, you need to find the URL Schemes for those apps and add them to the `Info.plist` file.
+
+
+1. Create a master list of UPI apps: Determine the UPI apps you want to integrate into your app. Some common UPI apps include `Google Pay`, `PhonePe`, `Paytm`, `BHIM`, and others.
+
+2. Find URL Schemes: Look up the URL Schemes for each UPI app. You can often find this information in the app’s developer documentation or by searching online.
+
+3. Add URL Schemes to `Info.plist`:
+
+Open your `Info.plist` file and add the URL Schemes for each app. It should look something like this:
+
+```
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>gpay</string>
+  <string>phonepe</string>
+  <string>paytm</string>
+  <string>bhim</string>
+  <!-- Add other URL Schemes here -->
+</array>
+```
+
+
 **Usage** 
 
 To use the `upi-uri-payment` module, import it into your React Native component and call the `openUPIApp` method with the UPI payment intent URL as a parameter.
