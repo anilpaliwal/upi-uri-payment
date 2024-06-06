@@ -79,4 +79,4 @@ This project is licensed under the MIT License.
 
 **Author**
 
-Anil Paliwal
+[Anil Paliwal](https://github.com/anilpaliwal)
