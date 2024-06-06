@@ -3,9 +3,10 @@
 `upi-uri-payment` is a native module for React Native that facilitates UPI (Unified Payments Interface) payments. This module provides a method called openUPIApp which takes a UPI payment intent URL as a parameter and opens a bottom sheet displaying installed UPI apps on the device. Selecting a specific app navigates the user to that app to complete the payment.
 
 **Features**
--Opens a bottom sheet with installed UPI apps on the device.
-+Navigates to the selected UPI app to complete the payment.
--Supports both Android and iOS platforms.
+
+- Opens a bottom sheet with installed UPI apps on the device.
++ Navigates to the selected UPI app to complete the payment.
+- Supports both Android and iOS platforms.
 
 **Installation**
 
